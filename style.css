@@ -1,0 +1,57 @@
+/* Reset some default styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #4A90E2; 
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2C3E50; /* Darker shade for headings */
+}
+
+/* Links */
+a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.button {
+    background-color: #4A90E2; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #357ABD; /* Darken on hover */
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
